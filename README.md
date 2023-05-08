@@ -1,21 +1,59 @@
-# Ginger Beauty Zone
+# My Next.js Tailwind Eslint Airbnb Starter Template
 
-### Project description:
+### Description:
 
-This is a website for my wife's beauty salon business in Warsaw.
+This is a starter template for building projects with Next.js, Tailwind CSS, and Eslint Airbnb configuration.
 
-- [Instagram](https://www.instagram.com/ginger_beauty_zone/) <br />
+## Installation
 
-### External Libraries used in this project:
+Install my-project with npm
 
-Next.js - React framework for server-side rendering and static generation.<br />
-Tailwind CSS - a utility-first CSS framework.<br />
-Framer Motion - a React animation library.<br />
+```bash
+  npm i
+```
 
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
+## When you install the project, the following items are already set up:
+
+[FONTS](https://linktodocumentation)<br />
+[Tailwind css](https://tailwindcss.com/)<br />
+[Framer-Motion](https://www.framer.com/motion/)<br />
+[Eslint-config-next](https://nextjs.org/docs/pages/building-your-application/configuring/eslint)<br />
+
+## Instalation optional
+
+```bash
+  npm add eslint-config-prettier eslint-plugin-prettier prettier --save-dev
+```
+
+```javascript
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: ["plugin:react/recommended", "airbnb", "prettier"],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 13,
+    sourceType: "module",
+  },
+  plugins: ["react"],
+  rules: {
+    "react/no-unescaped-entities": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
+  },
+};
+```
 
 ### Author:
 
-- [Linkedin](https://www.linkedin.com/in/grigory-maklakov-331a641ba/) <br />
+# Hi, I'm Gregory! 👋
+
+- [Linkedin](https://www.linkedin.com/in/grigory-maklakov-331a641ba/) Maklakov Hryhorii <br />
 - [myWebsite](http://www.maklakovgrigory.com/) <br />
+- [Instagram](https://www.instagram.com/grigoriimaklakov/) <br />

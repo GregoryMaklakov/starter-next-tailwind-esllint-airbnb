@@ -1,7 +1,5 @@
 import Head from "next/head";
-import {
-    Layount,
-} from "../components";
+import { Layount } from "../../components/Layount";
 
 export default function About() {
     return (

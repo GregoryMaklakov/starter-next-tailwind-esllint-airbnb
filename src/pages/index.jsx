@@ -1,8 +1,5 @@
 import Head from "next/head";
-import {
-  Layount,
-
-} from "../components";
+import { Layount } from "../components";
 
 export default function Home() {
   return (

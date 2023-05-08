@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 export const ICON_TYPES = {
-    key: "namKey",
+    key: "nameKey",
 
 };
 
@@ -17,7 +17,7 @@ export const Icon = ({ className, name, size, color }) => {
         props.fill = color;
     }
     switch (name) {
-        case ICON_TYPES.namKey:
+        case ICON_TYPES.nameKey:
             return (
                 <svg
                     {...props}
