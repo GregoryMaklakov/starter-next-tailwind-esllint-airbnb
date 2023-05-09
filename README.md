@@ -14,8 +14,9 @@ Install my-project with npm
 
 ## When you install the project, the following items are already set up:
 
-[FONTS](https://linktodocumentation)<br />
+[FONTS](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)<br />
 [Tailwind css](https://tailwindcss.com/)<br />
+[Tailwind css with Next.js](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)<br />
 [Framer-Motion](https://www.framer.com/motion/)<br />
 [Eslint-config-next](https://nextjs.org/docs/pages/building-your-application/configuring/eslint)<br />
 
